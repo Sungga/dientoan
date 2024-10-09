@@ -6,10 +6,10 @@
 
 <?php 
 
-$servername = "localhost";
-$username = "root";
-$password = "";
-$dbname = "clound";
+$servername = "thi.database.windows.net";
+$username = "thi.database.windows.net";
+$password = "@A123456";
+$dbname = "sinhvien";
 
 $conn = new mysqli($servername, $username, $password, $dbname);
 

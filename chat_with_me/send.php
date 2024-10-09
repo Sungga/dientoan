@@ -1,5 +1,5 @@
 <?php
-$database = mysqli_connect("localhost","root","","chat_with_me");
+$database = mysqli_connect("thi.database.windows.net","thi","@A123456","sinhvien");
 mysqli_set_charset($database, "utf8");
 if($_SERVER['REQUEST_METHOD'] == 'POST') {
     if(isset($_POST['message'])) {

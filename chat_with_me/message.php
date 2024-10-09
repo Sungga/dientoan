@@ -1,5 +1,5 @@
 <?php 
-    $db = mysqli_connect("localhost","root","","chat_with_me");
+    $db = mysqli_connect("thi.database.windows.net","thi","@A123456","sinhvien");
     mysqli_set_charset($db, "utf8");
     $query = "SELECT * from tbl_message";
     $message = mysqli_query($db, $query);

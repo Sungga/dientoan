@@ -7,10 +7,10 @@ class DB{
     protected $dbname;
 
     public function __construct(){
-        $this->localhost = "localhost";
-        $this->username = "root";
-        $this->password = "";
-        $this->dbname = "project_sv";
+        $this->localhost = "thi.database.windows.net";
+        $this->username = "thi";
+        $this->password = "@A123456";
+        $this->dbname = "sinhvien";
         $this->db = new mysqli($this->localhost, $this->username, $this->password, $this->dbname);
         if($this->db->connect_error){
             die("Connection failed: ". $this->db->connect_error);
